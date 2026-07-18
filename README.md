@@ -2,9 +2,12 @@
 
 > Enterprise-style self-hosted homelab focused on Linux, networking, Docker, automation, and cybersecurity.
 
-<img src="diagrams/network-overview.png" alt="HomeLab Network Overview" width="1000">
+<p align="center">
+  <a href="diagrams/network-overview.png">
+    <img src="diagrams/network-overview.png" width="1000">
+  </a>
+</p>
 
-Then run:
 
 ---
 
