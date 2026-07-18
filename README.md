@@ -1,54 +1,87 @@
-# HomeLab
+# 🏠 HomeLab
 
-A self-hosted enterprise-style homelab used to develop Linux, networking, Docker, automation, and cybersecurity skills.
+> Enterprise-style self-hosted homelab focused on Linux, networking, Docker, automation, and cybersecurity.
+
+<p align="center">
+  <img src="diagrams/network-overview.png" alt="HomeLab Network Overview" width="1000">
+</p>
 
 ---
 
-## Infrastructure
+## 📖 About
 
-- Ubuntu Server 26.04
-- Docker Engine
-- Portainer
-- Homepage
-- Uptime Kuma
+This repository documents my enterprise-style homelab, built to develop hands-on experience with:
+
+- Linux Administration
+- Docker & Containerization
+- Networking & VLANs
 - pfSense Firewall
-- Managed Switch
-- VLAN Segmentation
+- Infrastructure Documentation
+- Monitoring & Observability
+- Cybersecurity
 
 ---
 
-## Current Services
+## 🏗️ Infrastructure
+
+| Component | Technology |
+|-----------|------------|
+| Firewall | pfSense CE |
+| Switch | TP-Link Omada ES208G |
+| Server | Ubuntu Server 26.04 |
+| Containers | Docker |
+| Management | Portainer |
+| Dashboard | Homepage |
+| Monitoring | Uptime Kuma |
+
+---
+
+## 🌐 Network
+
+- Main PC VLAN
+- Gaming VLAN
+- Wireless VLAN
+- Server VLAN
+
+---
+
+## 🚀 Current Services
 
 | Service | Status |
-|----------|--------|
-| Docker | ✅ |
-| Portainer | ✅ |
+|---------|:------:|
 | Homepage | ✅ |
+| Portainer | ✅ |
 | Uptime Kuma | ✅ |
 
 ---
 
-## Roadmap
+## 🛣️ Roadmap
 
 - [ ] Nginx Proxy Manager
 - [ ] Grafana
 - [ ] Prometheus
 - [ ] Node Exporter
-- [ ] Pi-hole
 - [ ] Wazuh
+- [ ] CrowdSec
 - [ ] Nextcloud
-- [ ] Immich
 - [ ] Jellyfin
-- [ ] Game Servers
+- [ ] Immich
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
-```
+```text
 docker/
 docs/
-scripts/
 diagrams/
+scripts/
 assets/
+backups/
 ```
+
+---
+
+## 📜 License
+
+This project is for learning, experimentation, and professional portfolio development.
