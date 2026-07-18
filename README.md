@@ -1,32 +1,54 @@
 # HomeLab
 
-## Overview
+A self-hosted enterprise-style homelab used to develop Linux, networking, Docker, automation, and cybersecurity skills.
 
-This repository contains my self-hosted homelab infrastructure.
+---
 
-### Current Services
+## Infrastructure
 
 - Ubuntu Server 26.04
-- Docker
+- Docker Engine
 - Portainer
-- Uptime Kuma
 - Homepage
+- Uptime Kuma
+- pfSense Firewall
+- Managed Switch
+- VLAN Segmentation
 
-### Planned Services
+---
 
-- Grafana
-- Prometheus
-- Nginx Proxy Manager
-- Pi-hole
-- Wazuh
-- Nextcloud
-- Immich
-- Jellyfin
+## Current Services
 
-## Goals
+| Service | Status |
+|----------|--------|
+| Docker | ✅ |
+| Portainer | ✅ |
+| Homepage | ✅ |
+| Uptime Kuma | ✅ |
 
-- Learn Linux administration
-- Learn Docker and Docker Compose
-- Build enterprise networking skills
-- Practice cybersecurity
-- Document everything
+---
+
+## Roadmap
+
+- [ ] Nginx Proxy Manager
+- [ ] Grafana
+- [ ] Prometheus
+- [ ] Node Exporter
+- [ ] Pi-hole
+- [ ] Wazuh
+- [ ] Nextcloud
+- [ ] Immich
+- [ ] Jellyfin
+- [ ] Game Servers
+
+---
+
+## Repository Structure
+
+```
+docker/
+docs/
+scripts/
+diagrams/
+assets/
+```
