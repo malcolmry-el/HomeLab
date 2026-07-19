@@ -69,7 +69,7 @@ docs/
 
 ## 📸 Dashboard
 
-> *(Insert Homepage screenshot here)*
+HomePage
 
 ![Homepage](docs/images/homepage-dashboard.png)
 
