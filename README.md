@@ -1,90 +1,147 @@
 # 🏠 HomeLab
 
-> Enterprise-style self-hosted homelab focused on Linux, networking, Docker, automation, and cybersecurity.
+A self-hosted enterprise-style homelab built to develop practical skills in networking, Linux administration, Docker, monitoring, reverse proxying, and cybersecurity.
 
-<p align="center">
-  <a href="diagrams/network-overview.png">
-    <img src="diagrams/network-overview.png" width="1000">
-  </a>
-</p>
-
+This repository documents the infrastructure, configurations, and services running in my lab.
 
 ---
 
-## 📖 About
+## 🖥️ Network Architecture
 
-This repository documents my enterprise-style homelab, built to develop hands-on experience with:
+![Network Architecture](/home/malcolm/projects/homelab/diagrams/network-overview.png)
 
-- Linux Administration
-- Docker & Containerization
-- Networking & VLANs
-- pfSense Firewall
-- Infrastructure Documentation
-- Monitoring & Observability
-- Cybersecurity
+---
+## 🚀 Infrastructure
+
+- Ubuntu Server
+- Docker & Docker Compose
+- Portainer
+- Homepage Dashboard
+- Nginx Proxy Manager
+- Git & GitHub
 
 ---
 
-## 🏗️ Infrastructure
+## 📊 Monitoring
 
-| Component | Technology |
-|-----------|------------|
-| Firewall | pfSense CE |
-| Switch | TP-Link Omada ES208G |
-| Server | Ubuntu Server 26.04 |
-| Containers | Docker |
-| Management | Portainer |
-| Dashboard | Homepage |
-| Monitoring | Uptime Kuma |
+- Grafana
+- Prometheus
+- Node Exporter
+- Uptime Kuma
+
+Features include:
+
+- Real-time system monitoring
+- Service health monitoring
+- Performance dashboards
+- Resource utilization metrics
 
 ---
 
 ## 🌐 Network
 
-- Main PC VLAN
-- Gaming VLAN
-- Wireless VLAN
-- Server VLAN
+Network components include:
+
+- pfSense Firewall
+- TP-Link Omada Managed Switch
+- VLAN segmentation
+- Reverse Proxy
+- Static DHCP Reservations
 
 ---
 
-## 🚀 Current Services
-
-| Service | Status |
-|---------|:------:|
-| Homepage | ✅ |
-| Portainer | ✅ |
-| Uptime Kuma | ✅ |
-
----
-
-## 🛣️ Roadmap
-
-- [ ] Nginx Proxy Manager
-- [ ] Grafana
-- [ ] Prometheus
-- [ ] Node Exporter
-- [ ] Wazuh
-- [ ] CrowdSec
-- [ ] Nextcloud
-- [ ] Jellyfin
-- [ ] Immich
-
----
-
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
 docker/
+├── homepage/
+├── monitoring/
+├── nginx-proxy-manager/
+
 docs/
-diagrams/
-scripts/
-assets/
-backups/
+├── diagrams/
+├── homepage/
+├── monitoring/
+└── networking/
 ```
 
 ---
 
-## 📜 License
+## 📸 Dashboard
 
-This project is for learning, experimentation, and professional portfolio development.
+> *(Insert Homepage screenshot here)*
+
+![Homepage](docs/images/homepage-dashboard.png)
+
+---
+
+## 🎯 Goals
+
+This homelab is designed to gain hands-on experience with:
+
+- Linux Administration
+- Docker
+- Networking
+- Monitoring
+- Reverse Proxy
+- Infrastructure Documentation
+- Cybersecurity
+- Automation
+
+---
+
+## 🔨 Planned Services
+
+- Wazuh SIEM
+- Authentik SSO
+- CrowdSec
+- Vaultwarden
+- Immich
+- Jellyfin
+- Ansible
+
+---
+
+## 📚 Documentation
+
+Each service has its own documentation covering:
+
+- Installation
+- Configuration
+- Networking
+- Troubleshooting
+- Maintenance
+
+---
+
+## 🛠️ Technologies
+
+- Ubuntu Server
+- Docker
+- Docker Compose
+- Grafana
+- Prometheus
+- Node Exporter
+- Uptime Kuma
+- Homepage
+- Portainer
+- Nginx Proxy Manager
+- pfSense
+- Git
+- GitHub
+
+---
+
+## 📈 Project Status
+
+Current Phase:
+
+✅ Infrastructure Complete
+
+🔄 Documentation Improvements
+
+⏳ Security Stack (Wazuh)
+
+⏳ Identity Management (Authentik)
+
+⏳ Automation
