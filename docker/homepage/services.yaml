@@ -1,20 +1,48 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/services/
-
 - Infrastructure:
+    - Homepage:
+        href: http://homepage.home.lab
+        description: HomeLab Dashboard
+        icon: homepage.png
 
     - Portainer:
-        href: https://192.168.50.2:9443
+        href: http://portainer.home.lab
         description: Docker Management
         icon: portainer.png
 
+    - Nginx Proxy Manager:
+        href: http://nginx.home.lab
+        description: Reverse Proxy
+        icon: nginx-proxy-manager.png
+
+- Monitoring:
+    - Grafana:
+        href: http://grafana.home.lab
+        description: Dashboards
+        icon: grafana.png
+
+    - Prometheus:
+        href: http://prometheus.home.lab
+        description: Metrics Collection
+        icon: prometheus.png
+
     - Uptime Kuma:
-        href: http://192.168.50.2:3001
-        description: Monitoring
+        href: http://status.home.lab
+        description: Service Monitoring
         icon: uptime-kuma.png
 
-    - Homepage:
-        href: http://192.168.50.2:3000
-        description: Dashboard
-        icon: homepage.png
+- Network:
+    - pfSense:
+        href: https://192.168.1.1
+        description: Firewall
+        icon: pfsense.png
+
+    - Omada Switch:
+        href: http://192.168.1.2
+        description: Managed Switch
+        icon: tp-link.png
+
+- Development:
+    - GitHub:
+        href: https://github.com/malcolmry-el/HomeLab
+        description: Documentation
+        icon: github.png

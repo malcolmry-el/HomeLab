@@ -1,7 +1,10 @@
-- resources:
-    cpu: true
-    memory: true
-    disk: /
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets
+
+- search:
+    provider: duckduckgo
+    target: _blank
 
 - datetime:
     text_size: xl
@@ -9,6 +12,14 @@
       dateStyle: full
       timeStyle: medium
 
-- search:
-    provider: google
-    target: _blank
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- openmeteo:
+    label: Kitchener
+    latitude: 43.4516
+    longitude: -80.4925
+    timezone: America/Toronto
+    units: metric
