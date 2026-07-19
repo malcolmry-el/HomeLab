@@ -8,7 +8,7 @@ This repository documents the infrastructure, configurations, and services runni
 
 ## 🖥️ Network Architecture
 
-![Network Architecture](/home/malcolm/projects/homelab/diagrams/network-overview.png)
+![Network Architecture](diagrams/network-overview.png)
 
 ---
 ## 🚀 Infrastructure
