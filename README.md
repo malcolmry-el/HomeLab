@@ -22,20 +22,33 @@ This repository documents the infrastructure, configurations, and services runni
 
 ---
 
-## 📊 Monitoring
+## 📊 Monitoring Stack
+
+### Components
 
 - Grafana
 - Prometheus
 - Node Exporter
-- Uptime Kuma
+- cAdvisor
 
-Features include:
+### Infrastructure Dashboard
 
-- Real-time system monitoring
-- Service health monitoring
-- Performance dashboards
-- Resource utilization metrics
+The Grafana dashboard provides:
 
+- Docker container monitoring
+- CPU usage
+- Memory usage
+- Disk utilization
+- Network activity
+- System uptime
+- Container CPU usage
+- Container memory usage
+- Historical CPU trends
+- Historical memory trends
+
+Dashboard JSON:
+
+docker/monitoring/grafana/dashboards/homelab-infrastructure.json
 ---
 
 ## 🌐 Network
