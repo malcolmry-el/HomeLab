@@ -31,6 +31,19 @@ This repository documents the infrastructure, configurations, and services runni
 - Node Exporter
 - cAdvisor
 
+
+#### ⭐ Highlights
+
+- Custom Grafana dashboard built from scratch
+- Prometheus monitoring stack
+- Docker container monitoring with cAdvisor
+- Host monitoring with Node Exporter
+- Reverse proxy using Nginx Proxy Manager
+- Docker management with Portainer
+- Service availability monitoring with Uptime Kuma
+
+---
+
 ### Infrastructure Dashboard
 
 The Grafana dashboard provides:
@@ -150,6 +163,10 @@ Each service has its own documentation covering:
 Current Phase:
 
 ✅ Infrastructure Complete
+
+✅ Docker Monitoring Stack
+
+✅ Custom Grafana Dashboard
 
 🔄 Documentation Improvements
 
