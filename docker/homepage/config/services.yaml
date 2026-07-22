@@ -30,6 +30,16 @@
         description: Service Monitoring
         icon: uptime-kuma.png
 
+- Security:
+    - Wazuh:
+        href: http://wazuh.home.lab
+        description: SIEM & XDR Platform
+        icon: wazuh.png
+
+    - Suricata:
+        description: Coming Soon
+        icon: shield-alert
+
 - Network:
     - pfSense:
         href: https://192.168.1.1
@@ -41,8 +51,18 @@
         description: Managed Switch
         icon: tp-link.png
 
-- Development:
-    - GitHub:
+- Documentation:
+    - GitHub Repository:
         href: https://github.com/malcolmry-el/HomeLab
-        description: Documentation
+        description: HomeLab Repository
+        icon: github.png
+
+    - README:
+        href: https://github.com/malcolmry-el/HomeLab/blob/main/README.md
+        description: Project Overview
+        icon: github.png
+
+    - CHANGELOG:
+        href: https://github.com/malcolmry-el/HomeLab/blob/main/CHANGELOG.md
+        description: Project History
         icon: github.png

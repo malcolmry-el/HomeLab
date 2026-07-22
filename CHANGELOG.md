@@ -304,6 +304,15 @@ Verified:
 - Rule 87702
 - Dashboard alerts
 
+---
+
+## 2026-07-22
+
+### Fixed
+- Resolved Homepage → Wazuh reverse proxy issue.
+- Corrected Homepage configuration to use the active Docker bind mount.
+- Fixed Wazuh dashboard access through Nginx Proxy Manager.
+- Documented Docker bind mount troubleshooting process.
 ## Current Status
 
 Infrastructure
