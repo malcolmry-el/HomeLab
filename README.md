@@ -35,11 +35,11 @@ This repository documents the infrastructure, configurations, and services runni
 
 ## Security
 
-- ✅ Wazuh SIEM
-- ✅ pfSense Firewall Integration
-- ✅ Snort IDS Integration
-- ✅ Centralized Syslog Collection
-- ✅ Firewall Event Correlation
+-  Wazuh SIEM
+-  pfSense Firewall Integration
+-  Snort IDS Integration
+-  Centralized Syslog Collection
+-  Firewall Event Correlation
 
 ----
 
