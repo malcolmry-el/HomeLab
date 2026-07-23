@@ -179,9 +179,9 @@ Current Phase:
 
 ✅ Custom Grafana Dashboard
 
-🔄 Documentation Improvements
+✅ Security Stack (Wazuh)
 
-⏳ Security Stack (Wazuh)
+🔄 Documentation Improvements
 
 ⏳ Identity Management (Authentik)
 
