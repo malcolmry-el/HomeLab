@@ -313,6 +313,19 @@ Verified:
 - Corrected Homepage configuration to use the active Docker bind mount.
 - Fixed Wazuh dashboard access through Nginx Proxy Manager.
 - Documented Docker bind mount troubleshooting process.
+
+## 2026-07-23
+
+### Added
+
+- Integrated pfSense firewall with Wazuh SIEM using remote syslog.
+- Configured Docker syslog forwarding on UDP 5514.
+- Verified pfSense `filterlog` events are decoded by Wazuh.
+- Confirmed firewall block events generate Wazuh alerts.
+- Confirmed Snort IDS alerts are successfully ingested by Wazuh.
+
+
+
 ## Current Status
 
 Infrastructure

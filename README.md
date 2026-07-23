@@ -31,6 +31,17 @@ This repository documents the infrastructure, configurations, and services runni
 - Node Exporter
 - cAdvisor
 
+----
+
+## Security
+
+- ✅ Wazuh SIEM
+- ✅ pfSense Firewall Integration
+- ✅ Snort IDS Integration
+- ✅ Centralized Syslog Collection
+- ✅ Firewall Event Correlation
+
+----
 
 #### ⭐ Highlights
 
@@ -42,7 +53,7 @@ This repository documents the infrastructure, configurations, and services runni
 - Docker management with Portainer
 - Service availability monitoring with Uptime Kuma
 
----
+----
 
 ### Infrastructure Dashboard
 
@@ -62,7 +73,7 @@ The Grafana dashboard provides:
 Dashboard JSON:
 
 docker/monitoring/grafana/dashboards/homelab-infrastructure.json
----
+----
 
 ## 🌐 Network
 
@@ -74,7 +85,7 @@ Network components include:
 - Reverse Proxy
 - Static DHCP Reservations
 
----
+----
 
 ## 📁 Repository Structure
 
@@ -91,7 +102,7 @@ docs/
 └── networking/
 ```
 
----
+----
 
 ## 📸 Dashboard
 
@@ -99,7 +110,7 @@ HomePage
 
 ![Homepage](docs/images/homepage-dashboard.png)
 
----
+----
 
 ## 🎯 Goals
 
@@ -114,7 +125,7 @@ This homelab is designed to gain hands-on experience with:
 - Cybersecurity
 - Automation
 
----
+----
 
 ## 🔨 Planned Services
 
@@ -126,7 +137,7 @@ This homelab is designed to gain hands-on experience with:
 - Jellyfin
 - Ansible
 
----
+----
 
 ## 📚 Documentation
 
