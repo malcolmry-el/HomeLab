@@ -33,13 +33,25 @@ This repository documents the infrastructure, configurations, and services runni
 
 ----
 
-## Security
+## Security Monitoring
 
--  Wazuh SIEM
--  pfSense Firewall Integration
--  Snort IDS Integration
--  Centralized Syslog Collection
--  Firewall Event Correlation
+✅ Wazuh SIEM
+
+- Endpoint Monitoring
+- Authentication Monitoring
+- File Integrity Monitoring (Realtime)
+- Rootcheck
+- Threat Hunting
+- MITRE ATT&CK Mapping
+- Vulnerability Detection (In Progress)
+
+### Current Security Coverage
+
+- Ubuntu Server
+- pfSense Firewall
+- Snort IDS Alerts
+- Linux Authentication Logs
+- Docker Host Monitoring
 
 ----
 

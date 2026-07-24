@@ -324,7 +324,31 @@ Verified:
 - Confirmed firewall block events generate Wazuh alerts.
 - Confirmed Snort IDS alerts are successfully ingested by Wazuh.
 
+## [2026-07-24]
 
+### Added
+
+- Configured Wazuh File Integrity Monitoring (FIM)
+- Enabled realtime monitoring of Linux system files
+- Added monitoring for:
+  - /etc
+  - /bin
+  - /sbin
+  - /usr/bin
+  - /usr/sbin
+  - /boot
+
+### Validated
+
+- Successfully detected file creation
+- Successfully detected file modification
+- Successfully detected file deletion
+- Verified realtime alerts in Wazuh Dashboard
+- Confirmed communication between Ubuntu agent and Wazuh Manager
+
+### Improved
+
+- Reduced FIM detection latency from scheduled scans (12 hours) to realtime monitoring.
 
 ## Current Status
 
@@ -384,11 +408,7 @@ Documentation
 
 Planned work:
 
-- Deploy Wazuh Windows Agent
-- Deploy Wazuh Linux Agents
-- Install Suricata on pfSense
-- Integrate Suricata alerts into Wazuh
-- Create custom Wazuh dashboards
+
 - Build Grafana security dashboards
 - Configure alert notifications
 - Harden Ubuntu Server
